@@ -1,0 +1,17 @@
+<header id="navbar-primary" class="navbar-default header" role="navigation">
+	<div class="container">
+		{{ page.header }}
+	</div>
+</header>
+{{ page.breadcrup }}
+<main role="main">
+	<div class="main-container">
+		{{ page.content }}
+	</div> 
+</main>
+{% if page.footer %}
+<footer role="contentinfo">
+	{{ page.footer }}
+</footer>
+{% endif %}		
+				
