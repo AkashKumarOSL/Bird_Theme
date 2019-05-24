@@ -1,5 +1,5 @@
-style:
+global-css:
   css:
     theme:
-      styles/style.css: {}
+      css/style.css: {}
       
