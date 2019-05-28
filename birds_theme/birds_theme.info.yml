@@ -5,10 +5,8 @@ base theme: bootstrap
 name: 'Birds_Theme'
 description: 'A Drupal Bootstrap 3 based sub-theme.'
 
-
 regions:
   navigation: 'Navigation'
-  
   header: 'Top Bar'
   content: 'Content'
   footer: 'Footer'
@@ -19,7 +17,4 @@ libraries-extend:
   bootstrap/framework:
     - birds_theme/framework
     
-libraries:
-  - birds_theme/font
-  - birds_theme/framework
 
