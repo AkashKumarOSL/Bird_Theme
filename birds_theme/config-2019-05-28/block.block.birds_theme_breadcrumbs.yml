@@ -1,0 +1,22 @@
+uuid: 4aae5d6d-722a-46b3-b27f-faf390d7a32e
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - birds_theme
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: birds_theme_breadcrumbs
+theme: birds_theme
+region: navigation
+weight: -9
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

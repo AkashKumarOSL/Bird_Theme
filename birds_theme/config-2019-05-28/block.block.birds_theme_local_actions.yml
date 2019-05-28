@@ -1,0 +1,20 @@
+uuid: 3d632878-3b95-497a-8619-ca57ba514e89
+langcode: en
+status: false
+dependencies:
+  theme:
+    - birds_theme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: birds_theme_local_actions
+theme: birds_theme
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

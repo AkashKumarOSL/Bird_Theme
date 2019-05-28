@@ -1,0 +1,24 @@
+uuid: f1d022f8-44d6-49c7-b42a-1519ab59a401
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.header
+  module:
+    - system
+  theme:
+    - my_theme
+id: header
+theme: my_theme
+region: footer
+weight: -7
+provider: null
+plugin: 'system_menu_block:header'
+settings:
+  id: 'system_menu_block:header'
+  label: Header
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

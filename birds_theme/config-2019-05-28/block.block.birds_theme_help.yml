@@ -1,0 +1,22 @@
+uuid: 78d8afba-2c92-42ac-89fa-fe976b0e41a7
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - birds_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: birds_theme_help
+theme: birds_theme
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 7a722cc5-3992-4549-aa63-0630b9a63a4c
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - birds_theme
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: birds_theme_powered
+theme: birds_theme
+region: navigation
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

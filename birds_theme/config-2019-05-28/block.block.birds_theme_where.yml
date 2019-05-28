@@ -1,0 +1,25 @@
+uuid: 9024442c-c4a6-4a12-9d21-66a53fb244f6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a780908a-2085-473b-93bb-bb41a7bff97a'
+  module:
+    - block_content
+  theme:
+    - birds_theme
+id: birds_theme_where
+theme: birds_theme
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:a780908a-2085-473b-93bb-bb41a7bff97a'
+settings:
+  id: 'block_content:a780908a-2085-473b-93bb-bb41a7bff97a'
+  label: Where
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

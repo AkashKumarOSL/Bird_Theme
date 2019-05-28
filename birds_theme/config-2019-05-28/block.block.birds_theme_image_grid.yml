@@ -1,0 +1,25 @@
+uuid: 61c03d33-a9a3-47e9-bd5e-e385cd120572
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:78dff37b-760d-4597-8d5f-81db5813423c'
+  module:
+    - block_content
+  theme:
+    - birds_theme
+id: birds_theme_image_grid
+theme: birds_theme
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:78dff37b-760d-4597-8d5f-81db5813423c'
+settings:
+  id: 'block_content:78dff37b-760d-4597-8d5f-81db5813423c'
+  label: Image_Grid
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

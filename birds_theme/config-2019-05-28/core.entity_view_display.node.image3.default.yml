@@ -1,0 +1,38 @@
+uuid: fed7996d-74bb-436d-81e0-fb0f2da9ef18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.image3.body
+    - field.field.node.image3.field_birdimage
+    - field.field.node.image3.field_description
+    - image.style.image_grid_584_500
+    - node.type.image3
+  module:
+    - image
+    - user
+id: node.image3.default
+targetEntityType: node
+bundle: image3
+mode: default
+content:
+  field_birdimage:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: image_grid_584_500
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_description:
+    type: string
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  body: true
+  links: true

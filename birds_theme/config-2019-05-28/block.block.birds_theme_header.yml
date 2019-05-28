@@ -1,0 +1,24 @@
+uuid: 85f18184-5134-46a7-ad38-1aeea9f3ee5f
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.header
+  module:
+    - system
+  theme:
+    - birds_theme
+id: birds_theme_header
+theme: birds_theme
+region: footer
+weight: -7
+provider: null
+plugin: 'system_menu_block:header'
+settings:
+  id: 'system_menu_block:header'
+  label: Header
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

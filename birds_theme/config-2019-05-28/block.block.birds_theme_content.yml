@@ -1,0 +1,22 @@
+uuid: b85dd053-4dbb-478b-8dbb-99f520717d8b
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - birds_theme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: birds_theme_content
+theme: birds_theme
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

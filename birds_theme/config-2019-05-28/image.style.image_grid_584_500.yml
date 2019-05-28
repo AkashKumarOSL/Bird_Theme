@@ -1,0 +1,15 @@
+uuid: b8fac577-737e-497b-8a03-507800353e79
+langcode: en
+status: true
+dependencies: {  }
+name: image_grid_584_500
+label: 'image_grid 510*500'
+effects:
+  f6580b67-a2bb-469f-8fc3-64e685ece73c:
+    uuid: f6580b67-a2bb-469f-8fc3-64e685ece73c
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 510
+      height: 500
+      anchor: center-center

@@ -1,0 +1,25 @@
+uuid: ff89d6dc-02fb-4700-8817-a08a1a7eb7ca
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:78dff37b-760d-4597-8d5f-81db5813423c'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: image_grid
+theme: my_theme
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:78dff37b-760d-4597-8d5f-81db5813423c'
+settings:
+  id: 'block_content:78dff37b-760d-4597-8d5f-81db5813423c'
+  label: Image_Grid
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

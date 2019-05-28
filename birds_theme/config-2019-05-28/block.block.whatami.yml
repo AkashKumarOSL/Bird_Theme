@@ -1,0 +1,25 @@
+uuid: 59f5b3d8-203b-46ee-99a6-9c44d1b9728b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4085f455-c629-4ef8-b4ab-75ce94e1f80b'
+  module:
+    - block_content
+  theme:
+    - my_theme
+id: whatami
+theme: my_theme
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:4085f455-c629-4ef8-b4ab-75ce94e1f80b'
+settings:
+  id: 'block_content:4085f455-c629-4ef8-b4ab-75ce94e1f80b'
+  label: 'What Am I?'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

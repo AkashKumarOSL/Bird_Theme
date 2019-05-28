@@ -1,0 +1,15 @@
+uuid: 878bb148-1ab8-4360-89f8-b826ef5215d0
+langcode: en
+status: true
+dependencies: {  }
+name: round_image350_350
+label: 'round_image350*350'
+effects:
+  3e686eaa-f428-4fa6-be92-e6d6aeee75b3:
+    uuid: 3e686eaa-f428-4fa6-be92-e6d6aeee75b3
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 350
+      height: 350
+      anchor: center-center

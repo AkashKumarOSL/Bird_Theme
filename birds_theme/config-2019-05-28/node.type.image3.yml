@@ -1,0 +1,17 @@
+uuid: d6fc574e-9512-4502-8cb4-0c89da98202a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Image3
+type: image3
+description: 'Image grid'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

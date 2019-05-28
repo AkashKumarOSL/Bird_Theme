@@ -1,0 +1,22 @@
+uuid: 63f15ca6-965e-4479-a3bd-23d8c1376019
+langcode: en
+status: false
+dependencies:
+  theme:
+    - birds_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: birds_theme_local_tasks
+theme: birds_theme
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
