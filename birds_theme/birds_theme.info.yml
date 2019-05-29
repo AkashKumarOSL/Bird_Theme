@@ -13,8 +13,7 @@ regions:
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 
-libraries-extend:
-  bootstrap/framework:
-    - birds_theme/framework
+libraries:
+  - birds_theme/global-css
     
 
