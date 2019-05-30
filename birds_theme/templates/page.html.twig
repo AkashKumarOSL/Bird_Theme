@@ -51,11 +51,16 @@
  * @see html.html.twig
  */
 #}
-{% include '@birds_theme/include/header.html.twig' %}
-{# Content #}
-{% block content %}
-  {{ page.content }}
-{% endblock %}
+{% if page.navigation %}
+  {% block navigation %}
+    {% include '@birds_theme/include/header.html.twig' %}
+  {% endblock %}
+{% endif %}
+{% if page.content %}
+  {% block content %}
+    {{ page.content }}
+  {% endblock %}
+{% endif %}
 {% if page.footer %}
   {% block footer %}
     {% include '@birds_theme/include/footer.html.twig' %}
